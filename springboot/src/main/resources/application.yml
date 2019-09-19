@@ -1,0 +1,14 @@
+student:
+  name: "caoxinan"
+  age: 38
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  application:
+    name: service-invoker
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka   配置注册中心

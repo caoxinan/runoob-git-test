@@ -1,0 +1,18 @@
+server:
+  port: 8868
+spring:
+  application:
+    name: feign-client
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+feign:
+  hystrix:
+    enabled: false
+
+#Ribbon 超时时间设置
+#ribbon:
+#  ConnectTimeout: 500
+#  ReadTimeout:  3000
